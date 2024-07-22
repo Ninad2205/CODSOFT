@@ -26,7 +26,7 @@ public class Task1 {
     private static void playGame(Scanner sc) {
         Random randomNum = new Random();
         int numGuess = randomNum.nextInt(100) + 1;
-        int maxTry = 5;
+        int maxTry = 10;
         int attempts = 0;
         boolean correctGuess = false;
 
