@@ -7,7 +7,7 @@ public class Task2 {
         int totalMarks=0;
         int mark;
         for(int i=1;i<=totalSubjects;i++){
-            System.out.print("Enter marks of subject "+i+"out of 100 : ");
+            System.out.print("Enter marks of subject "+i+" out of 100 : ");
             mark=sc.nextInt();
             totalMarks=totalMarks+mark;
         }
